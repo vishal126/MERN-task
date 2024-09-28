@@ -1,0 +1,30 @@
+<!--If user input is giving a number greater than 0 then it should be printed = number is positive 
+And if the number is less than 0 then print = number is negative and if the number is equal to 0 then print = number is zero
+
+If user age is greater than  18 then print = you are eligible for vote
+If user age is less than 18  then print = you are not eligible for vote
+Otherwise print invalid input -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>number checker</label>
+    <br>
+    <input type="number" placeholder="enter no." id="input">
+    <input type="submit" value="check" onclick="answer()" required>
+    <label id="display">0</label>
+    <br>
+    <br>
+    <label>age checker</label>
+    <br>
+    <input type="number" placeholder="enter no." id="inputAge" required>
+    <input type="submit" value="check" onclick="age()">
+    <label id="displayAge">0</label>
+    <script src="./script.js"></script>
+</body>
+</html>

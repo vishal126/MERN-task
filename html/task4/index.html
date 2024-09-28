@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:5502/img.html -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+
+            border: 2px solid rgb(62, 154, 123, 0.2);
+            background-color: rgb(62, 154, 123, 0.2);
+            width: 1200px;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img {
+
+            width: 400px;
+            height: 600px;
+            float: right;
+            margin-right: 20px;
+        }
+
+        p {
+
+            margin-left: 10px;
+            margin-right: 10px;
+            letter-spacing: 1px;
+            line-height: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>From today's featured article</h1>
+    <p>
+        <img src="./WhatsApp Image 2024-08-10 at 2.12.41 PM.jpeg" alt="">
+        Howward Florey (1898-1968) was an Australian<br>
+        pharmacologist and pathologist who shared the Nobel prize<br>
+        in physiology or Medicine in 1945 with Ernst Chain and<br>
+        Alexander Fleming for his role in the development of the <br>
+        antibiotic penicillin. While Fleming received most of the credit<br>
+        for the drug's discovery, it was Florey and his team at<br>
+        University of Oxford inEngland who developed techniques for<br>
+        growing, purifying and manufacturing, it, tested it on<br>
+        animals and carried out the first clinical trials, Later trials in<br>
+        Britain, the United States and North Africa were highly successful. In addition to<br>
+        his work on pencillin. Florey studied other antibiotics, including lysozyme and the<br>
+        cephalsoporins, and researched contraception. He was elected President of the <br>
+        royal Society in 1960, became the provost of The Queen's College at Oxford in 1962,<br>
+        and served as teh chancellor of the Australian National University From<br>
+        1965 untl his death. Florey's discoveries are estimated to have saved more<br>
+        than 80 million lives. (Full article...)<br>
+        <br><br>
+        Recently featured: South Asian river dolphin. The kink's 1965 Us tour. Second
+    </p>
+    <p style="text-indent: 540px;">Battle of independence</p>
+    <p style="text-indent: 300px;">Archive. By email. More featured articles. About</p>
+    <p></p>
+
+    <!-- Code injected by live-server -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
+
+</body>
+
+</html>
